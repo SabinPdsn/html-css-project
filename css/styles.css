@@ -1,0 +1,99 @@
+/* Set background color for the website */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* additional changes => HOVER*/
+
+nav a:hover {
+   transition: 0.5s;
+   transform: scale(1.05);
+   color:bisque;
+}
+
+nav a img{
+    height:40px;
+    width: 100px;
+}
+/* Main content styles */
+main {
+    display: block;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 35px;
+}
+
+main p {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Set default fonts */
+body, nav, main, footer {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 35px;
+}
+
+/* Change the color of at least one heading */
+h1 {
+    color: #333;
+}
+
+/* List items formatting */
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Footer styles */
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
